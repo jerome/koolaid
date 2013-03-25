@@ -1,0 +1,5 @@
+./taxonomy.rb --src data/nonstandard1.csv --dst data/taxonomy_codes.csv --headers
+./taxonomy.rb --src data/nonstandard2.csv --dst data/taxonomy_codes.csv --headers
+./taxonomy.rb --src data/nonstandard3.csv --dst data/taxonomy_codes.csv --headers
+./taxonomy.rb --src data/nonstandard1.csv --dst data/taxonomy_codes.csv --dcols code,description
+./taxonomy.rb --src data/nonstandard1.csv --dst data/taxonomy_codes.csv --dcols code,description --imperfect
